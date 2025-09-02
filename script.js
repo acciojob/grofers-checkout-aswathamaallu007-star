@@ -4,10 +4,10 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-	const table = document.getElementId("table")
+	const table = document.getElementById("table")
   let totalsum = 0
   const sum = document.querySelectorAll(".price")
-	function totalsum(){
+	function total(){
 		for(let ch of sum){
 			totalsum += parseInt(ch.innerText)
 		}
@@ -19,7 +19,7 @@ const getSum = () => {
 		table.appendChild(newrow)
 		
 	}
-	totalsum()
+	total()
 };
 
 getSumBtn.addEventListener("click", getSum);
