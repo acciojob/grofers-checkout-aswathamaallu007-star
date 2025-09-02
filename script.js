@@ -13,6 +13,7 @@ const getSum = () => {
 		}
 		const newrow = document.createElement("tr")
 		const newdata = document.createElement("td")
+		newdata.id = "ans"
 		newdata.colSpan = 2
 		newdata.innerText = `Total Amount : ${totalsum}`
 		newrow.appendChild(newdata) 
