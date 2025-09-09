@@ -6,7 +6,7 @@ const getSum = () => {
 //Add your code here
     const table = document.getElementById("table")
 	let sum = 0
-	const prices = document.querySelectorAll(".prices")
+	const prices = document.querySelectorAll(".price")
 	function total(){
 		for(let ch of prices){
 			sum += parseInt(ch.innerText)
